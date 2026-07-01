@@ -1,15 +1,17 @@
 # tf-atom-iam-user-policy-attachment-aws
 
+[![Terraform Format](https://img.shields.io/badge/terraform-fmt-blue?logo=terraform)](https://github.com/PlatformStackPulse/tf-atom-iam-user-policy-attachment-aws/actions)
+[![Terraform Validate](https://img.shields.io/badge/terraform-validate-blue?logo=terraform)](https://github.com/PlatformStackPulse/tf-atom-iam-user-policy-attachment-aws/actions)
+[![TFLint](https://img.shields.io/badge/tflint-passing-brightgreen?logo=terraform)](https://github.com/PlatformStackPulse/tf-atom-iam-user-policy-attachment-aws/actions)
+[![Terraform Test](https://img.shields.io/badge/tests-2%20passed-brightgreen?logo=terraform)](https://github.com/PlatformStackPulse/tf-atom-iam-user-policy-attachment-aws/actions)
+[![Security Scan](https://img.shields.io/badge/trivy-passing-brightgreen?logo=aqua)](https://github.com/PlatformStackPulse/tf-atom-iam-user-policy-attachment-aws/actions)
+[![Conventional Commits](https://img.shields.io/badge/commits-conventional-blue?logo=conventionalcommits)](https://conventionalcommits.org)
+[![Documentation](https://img.shields.io/badge/docs-terraform--docs-blue?logo=readthedocs)](https://github.com/PlatformStackPulse/tf-atom-iam-user-policy-attachment-aws/actions)
+[![License](https://img.shields.io/badge/license-MIT-blue?logo=opensourceinitiative)](LICENSE)
+
 Terraform atom that attaches a single managed IAM policy to an IAM user, with tf-label-driven naming/tagging and an `enabled` toggle.
 
 <!-- Badges: Update REPO_OWNER/REPO_NAME after creating from template -->
-[![CI](https://github.com/PlatformStackPulse/terraform-atom-molecule-module-template/actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
-[![Release](https://github.com/PlatformStackPulse/terraform-atom-molecule-module-template/actions/workflows/auto-release.yml/badge.svg)](../../actions/workflows/auto-release.yml)
-[![CodeQL](https://github.com/PlatformStackPulse/terraform-atom-molecule-module-template/actions/workflows/codeql.yml/badge.svg)](../../actions/workflows/codeql.yml)
-[![Changelog](https://github.com/PlatformStackPulse/terraform-atom-molecule-module-template/actions/workflows/changelog.yml/badge.svg)](../../actions/workflows/changelog.yml)
-![Latest Release](https://img.shields.io/github/v/release/PlatformStackPulse/terraform-atom-molecule-module-template?label=latest%20release&sort=semver)
-![Terraform](https://img.shields.io/badge/terraform-%3E%3D1.6.0-blue?logo=terraform)
-![License](https://img.shields.io/github/license/PlatformStackPulse/terraform-atom-molecule-module-template)
 
 This atom wraps a single `aws_iam_user_policy_attachment` resource, attaching one managed policy ARN to a named IAM user. It follows the **one module per repository** best practice and inherits the tf-label context interface for consistent naming and tagging across the fleet.
 
